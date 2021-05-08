@@ -1,0 +1,14 @@
+C:\Coding\C#\VeggieHotel\bin\Debug\BD_Hotel.mdf
+C:\Coding\C#\VeggieHotel\bin\Debug\BD_Hotel_log.ldf
+C:\Coding\C#\VeggieHotel\bin\Debug\VeggieHotel.exe.config
+C:\Coding\C#\VeggieHotel\bin\Debug\VeggieHotel.exe
+C:\Coding\C#\VeggieHotel\bin\Debug\VeggieHotel.pdb
+C:\Coding\C#\VeggieHotel\obj\Debug\VeggieHotel.LoadingScreen.resources
+C:\Coding\C#\VeggieHotel\obj\Debug\VeggieHotel.Login.resources
+C:\Coding\C#\VeggieHotel\obj\Debug\VeggieHotel.MainScreen.resources
+C:\Coding\C#\VeggieHotel\obj\Debug\VeggieHotel.Properties.Resources.resources
+C:\Coding\C#\VeggieHotel\obj\Debug\VeggieHotel.Stats.resources
+C:\Coding\C#\VeggieHotel\obj\Debug\VeggieHotel.csproj.GenerateResource.cache
+C:\Coding\C#\VeggieHotel\obj\Debug\VeggieHotel.csproj.CoreCompileInputs.cache
+C:\Coding\C#\VeggieHotel\obj\Debug\VeggieHotel.exe
+C:\Coding\C#\VeggieHotel\obj\Debug\VeggieHotel.pdb
