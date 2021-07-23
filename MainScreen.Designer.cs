@@ -59,9 +59,6 @@ namespace VeggieHotel
             this.lbl_Entrada = new System.Windows.Forms.Label();
             this.dgv_Hospedes = new System.Windows.Forms.DataGridView();
             this.panel_Contactos = new System.Windows.Forms.Panel();
-            this.linkLbl_Instagram = new System.Windows.Forms.LinkLabel();
-            this.linkLbl_Site = new System.Windows.Forms.LinkLabel();
-            this.linkLbl_Email = new System.Windows.Forms.LinkLabel();
             this.lbl_Contactos = new System.Windows.Forms.Label();
             this.panel_Localizacao = new System.Windows.Forms.Panel();
             this.pb_Map = new System.Windows.Forms.PictureBox();
@@ -74,6 +71,9 @@ namespace VeggieHotel
             this.label2 = new System.Windows.Forms.Label();
             this.btn_Stats = new System.Windows.Forms.Button();
             this.btn_Close = new System.Windows.Forms.Button();
+            this.lbl_Site = new System.Windows.Forms.LinkLabel();
+            this.lbl_Email = new System.Windows.Forms.LinkLabel();
+            this.lbl_Instagram = new System.Windows.Forms.LinkLabel();
             this.panel_Reservas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Reservas)).BeginInit();
             this.flp_Menu.SuspendLayout();
@@ -470,9 +470,9 @@ namespace VeggieHotel
             // 
             // panel_Contactos
             // 
-            this.panel_Contactos.Controls.Add(this.linkLbl_Instagram);
-            this.panel_Contactos.Controls.Add(this.linkLbl_Site);
-            this.panel_Contactos.Controls.Add(this.linkLbl_Email);
+            this.panel_Contactos.Controls.Add(this.lbl_Instagram);
+            this.panel_Contactos.Controls.Add(this.lbl_Email);
+            this.panel_Contactos.Controls.Add(this.lbl_Site);
             this.panel_Contactos.Controls.Add(this.lbl_Contactos);
             this.panel_Contactos.Enabled = false;
             this.panel_Contactos.ForeColor = System.Drawing.Color.White;
@@ -482,54 +482,6 @@ namespace VeggieHotel
             this.panel_Contactos.TabIndex = 17;
             this.panel_Contactos.Tag = "tab";
             this.panel_Contactos.Visible = false;
-            // 
-            // linkLbl_Instagram
-            // 
-            this.linkLbl_Instagram.ActiveLinkColor = System.Drawing.Color.Black;
-            this.linkLbl_Instagram.AutoSize = true;
-            this.linkLbl_Instagram.BackColor = System.Drawing.Color.Transparent;
-            this.linkLbl_Instagram.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLbl_Instagram.ForeColor = System.Drawing.Color.White;
-            this.linkLbl_Instagram.LinkColor = System.Drawing.Color.White;
-            this.linkLbl_Instagram.Location = new System.Drawing.Point(345, 490);
-            this.linkLbl_Instagram.Name = "linkLbl_Instagram";
-            this.linkLbl_Instagram.Size = new System.Drawing.Size(311, 23);
-            this.linkLbl_Instagram.TabIndex = 4;
-            this.linkLbl_Instagram.TabStop = true;
-            this.linkLbl_Instagram.Text = "📷 instagram.com/veggiehotel";
-            this.linkLbl_Instagram.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLbl_Instagram_LinkClicked);
-            // 
-            // linkLbl_Site
-            // 
-            this.linkLbl_Site.ActiveLinkColor = System.Drawing.Color.Black;
-            this.linkLbl_Site.AutoSize = true;
-            this.linkLbl_Site.BackColor = System.Drawing.Color.Transparent;
-            this.linkLbl_Site.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLbl_Site.ForeColor = System.Drawing.Color.White;
-            this.linkLbl_Site.LinkColor = System.Drawing.Color.White;
-            this.linkLbl_Site.Location = new System.Drawing.Point(270, 182);
-            this.linkLbl_Site.Name = "linkLbl_Site";
-            this.linkLbl_Site.Size = new System.Drawing.Size(461, 23);
-            this.linkLbl_Site.TabIndex = 3;
-            this.linkLbl_Site.TabStop = true;
-            this.linkLbl_Site.Text = "🌐 brunaquintinoepm.wixsite.com/veggiehotel";
-            this.linkLbl_Site.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLbl_Site_LinkClicked);
-            // 
-            // linkLbl_Email
-            // 
-            this.linkLbl_Email.ActiveLinkColor = System.Drawing.Color.Black;
-            this.linkLbl_Email.AutoSize = true;
-            this.linkLbl_Email.BackColor = System.Drawing.Color.Transparent;
-            this.linkLbl_Email.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLbl_Email.ForeColor = System.Drawing.Color.White;
-            this.linkLbl_Email.LinkColor = System.Drawing.Color.White;
-            this.linkLbl_Email.Location = new System.Drawing.Point(336, 336);
-            this.linkLbl_Email.Name = "linkLbl_Email";
-            this.linkLbl_Email.Size = new System.Drawing.Size(329, 23);
-            this.linkLbl_Email.TabIndex = 2;
-            this.linkLbl_Email.TabStop = true;
-            this.linkLbl_Email.Text = "📧 veggiehotelisboa@gmail.com";
-            this.linkLbl_Email.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLbl_Email_LinkClicked);
             // 
             // lbl_Contactos
             // 
@@ -668,6 +620,45 @@ namespace VeggieHotel
             this.btn_Close.UseVisualStyleBackColor = true;
             this.btn_Close.Click += new System.EventHandler(this.btn_Close_Click);
             // 
+            // lbl_Site
+            // 
+            this.lbl_Site.AutoSize = true;
+            this.lbl_Site.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Site.LinkColor = System.Drawing.Color.White;
+            this.lbl_Site.Location = new System.Drawing.Point(284, 131);
+            this.lbl_Site.Name = "lbl_Site";
+            this.lbl_Site.Size = new System.Drawing.Size(434, 23);
+            this.lbl_Site.TabIndex = 1;
+            this.lbl_Site.TabStop = true;
+            this.lbl_Site.Text = "brunaquintinoepm.wixsite.com/veggiehotel";
+            this.lbl_Site.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLbl_Site_LinkClicked);
+            // 
+            // lbl_Email
+            // 
+            this.lbl_Email.AutoSize = true;
+            this.lbl_Email.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Email.LinkColor = System.Drawing.Color.White;
+            this.lbl_Email.Location = new System.Drawing.Point(350, 437);
+            this.lbl_Email.Name = "lbl_Email";
+            this.lbl_Email.Size = new System.Drawing.Size(301, 23);
+            this.lbl_Email.TabIndex = 2;
+            this.lbl_Email.TabStop = true;
+            this.lbl_Email.Text = "veggiehotelisboa@gmail.com";
+            this.lbl_Email.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLbl_Email_LinkClicked);
+            // 
+            // lbl_Instagram
+            // 
+            this.lbl_Instagram.AutoSize = true;
+            this.lbl_Instagram.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Instagram.LinkColor = System.Drawing.Color.White;
+            this.lbl_Instagram.Location = new System.Drawing.Point(359, 679);
+            this.lbl_Instagram.Name = "lbl_Instagram";
+            this.lbl_Instagram.Size = new System.Drawing.Size(283, 23);
+            this.lbl_Instagram.TabIndex = 3;
+            this.lbl_Instagram.TabStop = true;
+            this.lbl_Instagram.Text = "instagram.com/veggiehotel";
+            this.lbl_Instagram.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLbl_Instagram_LinkClicked);
+            // 
             // MainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -730,7 +721,6 @@ namespace VeggieHotel
         private System.Windows.Forms.TextBox txt_pesquisarHospede;
         private System.Windows.Forms.Panel panel_Contactos;
         private System.Windows.Forms.Label lbl_Contactos;
-        private System.Windows.Forms.LinkLabel linkLbl_Email;
         private System.Windows.Forms.Panel panel_Horarios;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label1;
@@ -747,7 +737,8 @@ namespace VeggieHotel
         private System.Windows.Forms.PictureBox pb_Map;
         private System.Windows.Forms.Label lbl_Coordenadas;
         private System.Windows.Forms.Label lbl_Morada;
-        private System.Windows.Forms.LinkLabel linkLbl_Instagram;
-        private System.Windows.Forms.LinkLabel linkLbl_Site;
+        private System.Windows.Forms.LinkLabel lbl_Site;
+        private System.Windows.Forms.LinkLabel lbl_Email;
+        private System.Windows.Forms.LinkLabel lbl_Instagram;
     }
 }

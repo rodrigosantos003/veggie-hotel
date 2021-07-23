@@ -23,7 +23,7 @@ namespace VeggieHotel
 
         private void execLogin()
         {
-            cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + AppDomain.CurrentDomain.BaseDirectory + "BD_Hotel.mdf;Integrated Security=True";
+            cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + Path.GetFullPath("@../..") + "\\BD_Hotel.mdf;Integrated Security=True";
             cmd = "SELECT * FROM tbl_Login WHERE [Nome de Utilizador] = '" + txt_User.Text.Trim() + "'AND [Password] = '" + txt_Pass.Text.Trim() + "'";
 
             sqlcon = new SqlConnection(cs);
