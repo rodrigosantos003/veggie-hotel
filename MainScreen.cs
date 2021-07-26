@@ -11,7 +11,7 @@ namespace VeggieHotel
     public partial class MainScreen : Form
     {
         #region Variaveis
-        string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + Path.GetFullPath("@../..") + "\\BD_Hotel.mdf;Integrated Security=True";
+        string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + Path.GetFullPath(@"../..") + "\\BD_Hotel.mdf;Integrated Security=True;Connect Timeout=30";
         SqlConnection sqlcon;
         SqlCommand cmd;
         SqlDataAdapter sda;
