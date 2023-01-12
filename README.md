@@ -1,6 +1,5 @@
 # Veggie Hotel
-## App Developed By <a href="https://fsdevapps.netlify.app">FS DevApps</a>
-### This app was built as a complement for Veggie Hotel project- PAP of Bruna Quintino
+## This app was built as a complement for Veggie Hotel project- PAP of Bruna Quintino
 
 ## Review
 “Hello, good afternoon. I come by this means demonstrate my pleasure after working with your company. <br>
